@@ -1,12 +1,12 @@
 
 <!-- Banner -->
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20Resume%20Copilot-Streamlit%20App-blueviolet?style=for-the-badge&logo=streamlit" alt="AI Resume Copilot" />
+  <img src="https://img.shields.io/badge/Beyond%20Marks%20AI%20Academy-Streamlit%20App-blueviolet?style=for-the-badge&logo=streamlit" alt="Beyond Marks AI Academy" />
 </p>
 
-# 🧠 AI Resume Copilot
+# 🧠 Beyond Marks AI Academy
 
-AI Resume Copilot is a GenAI-powered Streamlit application that helps job seekers evaluate, improve, and align their resumes to specific roles using LLMs. It also includes an ATS (Applicant Tracking System) compatibility checker, personalized recommendations, and detailed scoring.
+Beyond Marks AI Academy is a GenAI-powered Streamlit application that helps job seekers evaluate, improve, and align their resumes to specific roles using LLMs. It also includes an ATS (Applicant Tracking System) compatibility checker, personalized recommendations, and detailed scoring.
 
 ---
 
@@ -59,11 +59,14 @@ AI Resume Copilot is a GenAI-powered Streamlit application that helps job seeker
 ---
 ## 🌟 Live Demo
 
-🧪 Try it live: [AI Resume Analyzer Streamlit App](https://ai-resume-analyzer-p7c3u8xfbcnbfrpm5ra7zy.streamlit.app/)
+🧪 Try it live: [Beyond Marks AI Academy Streamlit App](https://ai-resume-analyzer-p7c3u8xfbcnbfrpm5ra7zy.streamlit.app/)
 
 ---
-## 🧑‍💼 Author
+## © Copyright
 
-Developed with ❤️ by **Kurra Srinivas** – [LinkedIn](https://www.linkedin.com/in/kurra-srinivas-31727420b/)
+Copyright © 2026 **Beyond Marks AI Academy**. All rights reserved.
 
 ---
+# AI-based-Career-Recommendation-System-With-Resume-Insight-and-Skill-Enhancement
+
+# AI-based-Career-Recommendation-System-With-Resume-Insight-and-Skill-Enhancement

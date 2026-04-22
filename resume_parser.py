@@ -8,19 +8,8 @@ def extract_resume_text(file):
     return text
 
 
-from langchain_groq import ChatGroq
-from langchain_core.prompts import PromptTemplate
-from dotenv import load_dotenv
 from docx import Document
 from PyPDF2 import PdfReader
-import os
-
-load_dotenv()
-
-llm = ChatGroq(
-    groq_api_key=os.getenv("GROQ_API_KEY"),
-    model_name="llama3-70b-8192"
-)
 
 def extract_text_from_pdf(file):
     reader = PdfReader(file)
@@ -37,6 +26,8 @@ def extract_text_from_docx(file):
     return text
 
 def evaluate_resume(file, tone="General", language="English"):
+    from llm_helper import llm
+
     if file.name.endswith(".pdf"):
         resume_text = extract_text_from_pdf(file)
     elif file.name.endswith(".docx"):

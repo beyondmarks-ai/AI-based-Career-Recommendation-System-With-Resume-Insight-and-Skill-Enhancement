@@ -33,12 +33,17 @@ Resume Text:
 \"\"\"
 
 Evaluation Guidelines:
-- Start with 1–2 line summary of the resume’s strengths
-- Highlight specific weaknesses or areas for improvement
-- Recommend 2–3 actionable suggestions
-- End with a final rating out of 10
-
-Respond in detailed but readable language.
+- Use clear headings exactly in this order:
+  1) Strengths
+  2) Areas for Improvement
+  3) Action Plan
+  4) Final Rating
+- Under "Strengths", provide 2-3 concise bullet points
+- Under "Areas for Improvement", provide 3-5 professional, specific, high-impact bullet points
+- Under "Action Plan", provide 3 bullet points that are practical and measurable
+- Under "Final Rating", return one line only in this format: Rating: X/10
+- Keep language professional, direct, and recruiter-friendly
+- Avoid generic statements and filler text
 """
     response = llm.invoke(prompt)
     return response.content.strip()

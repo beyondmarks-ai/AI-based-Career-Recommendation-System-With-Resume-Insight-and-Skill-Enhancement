@@ -1,9 +1,13 @@
 import os
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
+from langchain_openai import ChatOpenAI
 
 load_dotenv()
-llm = ChatGroq(
-    groq_api_key=os.getenv("GROQ_API_KEY"),
-    model_name="llama3-70b-8192"
+openai_api_key = os.getenv("OPENAI_API_KEY")
+if not openai_api_key:
+    raise ValueError("OPENAI_API_KEY is missing. Add it to your .env file.")
+
+llm = ChatOpenAI(
+    api_key=openai_api_key,
+    model="gpt-4.1-mini",
 )
